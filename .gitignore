@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+*.csv
+!foodhub_data.csv
+*.xlsx
+*.xls
+*.json
+*.db
+*.sqlite
+
+# Logs and runtime files
+*.log
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Package / build
+build/
+dist/
+*.egg-info/
+
+# Secrets
+.env
+*.env
+config.json
+secrets.json
+credentials.json
